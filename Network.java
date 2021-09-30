@@ -6,8 +6,7 @@ public class Network {
     public static void main(String[] args) {
         double[] inputs = { 0, 2, -1, 3.3, -2.7, 1.1, 2.2, -53 };
         ArrayList<Double> outputs = ReLU(inputs); 
-        
-        System.out.println("Hello world!");
+       
         System.out.println(outputs.toString());
         
         // double[][] X = { { 4.3, 2.1, 8.4 }, { -1.0, 5.0, 2.0 }, { 0.1, 0.17, -0.26 } };
